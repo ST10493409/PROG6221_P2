@@ -14,10 +14,30 @@
             <RowDefinition Height="80"/>
         </Grid.RowDefinitions>
 
-        <!-- CHAT AREA -->
+        <!-- ASCII art -->
+        <TextBlock FontFamily="Consolas"
+           FontSize="20"
+           Foreground="#FF0032FB"
+           Margin="10"
+           TextAlignment="Center"
+           VerticalAlignment="Top">
+
+    <Run Text="====================================="/>
+    <LineBreak/>
+    <Run Text=" CYBERSECURITY AWARENESS BOT"/>
+    <LineBreak/>
+    <Run Text="====================================="/>
+    <LineBreak/>
+    <Run Text="  [🔒] Stay Safe Online [🔒]"/>
+    <LineBreak/>
+    <Run Text="====================================="/>
+
+        </TextBlock>
+
+        <!-- Chat area -->
         <ListBox x:Name="lstChat" Grid.Row="1" Margin="10" FontSize="16" Background="#2D2D30" Foreground="White"/>
 
-        <!-- INPUT AREA -->
+        <!-- Input area-->
         <Grid Grid.Row="2" Margin="10">
 
             <Grid.ColumnDefinitions>
