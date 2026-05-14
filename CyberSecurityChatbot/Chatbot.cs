@@ -30,24 +30,23 @@ namespace CyberSecurityChatbot
             TopicResponses.Add("phishing", new List<string>()
             {
                 "Phishing scams try to trick you into giving away personal information.",
-                "Never click suspicious email links.",
-                "Scammers often pretend to be trusted companies."
+                "Phishing is often when scammers pretend to be trusted companies."
             });
 
             // Privacy responses
             TopicResponses.Add("privacy", new List<string>()
             {
                 "Always check your privacy settings online.",
-                "Use two-factor authentication.",
-                "Avoid sharing sensitive information publicly."
+                "To ensure privacy use two-factor authentication.",
+                "To ensure privacy avoid sharing sensitive information publicly."
             });
 
             // Safe browsing responses
             TopicResponses.Add("safe", new List<string>()
             {
-                "Make sure websites use HTTPS before entering personal information.",
-                "Avoid downloading files from unknown websites.",
-                "Keep your browser updated for better protection."
+                "A safe browsing example is to make sure websites use HTTPS before entering personal information.",
+                "An example of safe browsing is when avoid downloading files from unknown websites.",
+                "To ensure safe browsing keep your browser updated for better protection."
             });
 
         }
@@ -80,7 +79,8 @@ namespace CyberSecurityChatbot
                 // If confused response
                 if (message == "i'm confused" ||
                     message == "i dont know" ||
-                    message == "explain more")
+                    message == "explain more" ||
+                    message ==  "tell me more")
                 {
                     if (PreviousResponse != "")
                     {
@@ -101,7 +101,7 @@ namespace CyberSecurityChatbot
 
                             PreviousResponse = botReply;
 
-                            return botReply;
+                            return botReply + " Would you like to ask about anything else?"; 
                         }
                     }
                 }
@@ -111,7 +111,7 @@ namespace CyberSecurityChatbot
                 {
                     FavouriteTopic = message;
 
-                    return "Great! I will remember that your favourite cybersecurity topic is " + FavouriteTopic;
+                    return "Great! I will remember that your favourite cybersecurity topic is " + FavouriteTopic + " Would you like to ask about anything else?"; ;
                 }
 
                 // Unkown input
