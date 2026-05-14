@@ -18,7 +18,7 @@ namespace CyberSecurityChatbot
 
         public Chatbot()
         {
-            // Passwor responses
+            // Password responses
             TopicResponses.Add("password", new List<string>()
             {
                 "Use strong passwords with uppercase and lowercase letters, symbols and numbers.",
