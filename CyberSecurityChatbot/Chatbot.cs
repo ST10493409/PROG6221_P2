@@ -14,7 +14,12 @@ namespace CyberSecurityChatbot
 
         public Dictionary<string, List<string>> TopicResponses = new Dictionary<string, List<string>>();
 
-        public Dictionary<string, string> SentimentResponses = new Dictionary<string, string>();
+        public List<CyberTask> Tasks = new List<CyberTask>();
+
+        public List<ActivityLog> Logs = new List<ActivityLog>();
+
+        public List<QuizQuestion> QuizQuestions = new List<QuizQuestion>();
+
 
         public Chatbot()
         {
