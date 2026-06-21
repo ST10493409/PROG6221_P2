@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|c:\\users\\user-pc\\onedrive\\documents\\github\\prog6221_poe_part3\\cybersecuritychatbot\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|c:\\users\\user-pc\\onedrive\\documents\\github\\prog6221_poe_part3\\cybersecuritychatbot\\cybertask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\cybertask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|c:\\users\\user-pc\\onedrive\\documents\\github\\prog6221_poe_part3\\cybersecuritychatbot\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|c:\\users\\user-pc\\onedrive\\documents\\github\\prog6221_poe_part3\\cybersecuritychatbot\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,15 +42,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ActivityLog.cs",
+              "DocumentMoniker": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\ActivityLog.cs",
+              "RelativeDocumentMoniker": "CyberSecurityChatbot\\ActivityLog.cs",
+              "ToolTip": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\ActivityLog.cs",
+              "RelativeToolTip": "CyberSecurityChatbot\\ActivityLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T21:22:03.742Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "QuizQuestion.cs",
+              "DocumentMoniker": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\QuizQuestion.cs",
+              "RelativeDocumentMoniker": "CyberSecurityChatbot\\QuizQuestion.cs",
+              "ToolTip": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\QuizQuestion.cs",
+              "RelativeToolTip": "CyberSecurityChatbot\\QuizQuestion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T21:21:16.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CyberTask.cs",
+              "DocumentMoniker": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\CyberTask.cs",
+              "RelativeDocumentMoniker": "CyberSecurityChatbot\\CyberTask.cs",
+              "ToolTip": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\CyberTask.cs",
+              "RelativeToolTip": "CyberSecurityChatbot\\CyberTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T21:20:37.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "CyberSecurityChatbot\\AssemblyInfo.cs",
@@ -46,37 +93,35 @@
               "RelativeToolTip": "CyberSecurityChatbot\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T15:45:21.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-21T15:45:21.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\App.xaml",
               "RelativeDocumentMoniker": "CyberSecurityChatbot\\App.xaml",
               "ToolTip": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\App.xaml",
               "RelativeToolTip": "CyberSecurityChatbot\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-13T19:19:45.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T19:19:45.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Chatbot.cs",
               "DocumentMoniker": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\Chatbot.cs",
               "RelativeDocumentMoniker": "CyberSecurityChatbot\\Chatbot.cs",
               "ToolTip": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\Chatbot.cs",
               "RelativeToolTip": "CyberSecurityChatbot\\Chatbot.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADwv38AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T20:31:14.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "CyberSecurityChatbot\\MainWindow.xaml.cs",
@@ -84,20 +129,18 @@
               "RelativeToolTip": "CyberSecurityChatbot\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T14:03:15.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-14T14:03:15.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\MainWindow.xaml",
               "RelativeDocumentMoniker": "CyberSecurityChatbot\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\MainWindow.xaml",
               "RelativeToolTip": "CyberSecurityChatbot\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-13T19:16:46.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T19:16:46.83Z"
             }
           ]
         }

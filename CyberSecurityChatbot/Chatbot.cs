@@ -54,6 +54,66 @@ namespace CyberSecurityChatbot
                 "To ensure safe browsing keep your browser updated for better protection."
             });
 
+            QuizQuestions.Add(new QuizQuestion()
+            {
+                Question = "What should you do if an email asks for your password?",
+                Answer = "Report"
+            });
+
+            QuizQuestions.Add(new QuizQuestion()
+            {
+                Question = "Should you reuse passwords on multiple websites? (Yes/No)",
+                Answer = "No"
+            });
+
+            QuizQuestions.Add(new QuizQuestion()
+            {
+                Question = "HTTPS websites are generally safer than HTTP websites. (True/False)",
+                Answer = "True"
+            });
+
+            QuizQuestions.Add(new QuizQuestion()
+            {
+                Question = "What type of attack tricks users into giving personal information?",
+                Answer = "Phishing"
+            });
+
+            QuizQuestions.Add(new QuizQuestion()
+            {
+                Question = "Should you share your passwords with friends? (Yes/No)",
+                Answer = "No"
+            });
+
+            QuizQuestions.Add(new QuizQuestion()
+            {
+                Question = "What security feature requires a second verification step?",
+                Answer = "Two-factor authentication"
+            });
+
+            QuizQuestions.Add(new QuizQuestion()
+            {
+                Question = "Is it safe to click links from unknown senders? (Yes/No)",
+                Answer = "No"
+            });
+
+            QuizQuestions.Add(new QuizQuestion()
+            {
+                Question = "What should you do before downloading a file from a website?",
+                Answer = "Verify the website"
+            });
+
+            QuizQuestions.Add(new QuizQuestion()
+            {
+                Question = "Strong passwords should contain letters, numbers and symbols. (True/False)",
+                Answer = "True"
+            });
+
+            QuizQuestions.Add(new QuizQuestion()
+            {
+                Question = "What does the 'S' in HTTPS stand for?",
+                Answer = "Secure"
+            });
+
         }
 
         // Random responce method 
