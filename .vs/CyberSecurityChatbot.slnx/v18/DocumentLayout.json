@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_P2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|c:\\users\\user-pc\\onedrive\\documents\\github\\prog6221_p2\\cybersecuritychatbot\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|c:\\users\\user-pc\\onedrive\\documents\\github\\prog6221_p2\\cybersecuritychatbot\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|c:\\users\\user-pc\\onedrive\\documents\\github\\prog6221_p2\\cybersecuritychatbot\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|c:\\users\\user-pc\\onedrive\\documents\\github\\prog6221_p2\\cybersecuritychatbot\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|c:\\users\\user-pc\\onedrive\\documents\\github\\prog6221_p2\\cybersecuritychatbot\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5A9F28E-B2F2-25CB-3786-1E75848FE501}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|c:\\users\\user-pc\\onedrive\\documents\\github\\prog6221_p2\\cybersecuritychatbot\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_P2\\CyberSecurityChatbot\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "CyberSecurityChatbot\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_P2\\CyberSecurityChatbot\\AssemblyInfo.cs",
+              "RelativeToolTip": "CyberSecurityChatbot\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T15:45:21.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_P2\\CyberSecurityChatbot\\App.xaml",
               "RelativeDocumentMoniker": "CyberSecurityChatbot\\App.xaml",
@@ -48,27 +65,27 @@
               "RelativeDocumentMoniker": "CyberSecurityChatbot\\Chatbot.cs",
               "ToolTip": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_P2\\CyberSecurityChatbot\\Chatbot.cs",
               "RelativeToolTip": "CyberSecurityChatbot\\Chatbot.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAwwBQAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAwwH8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T20:31:14.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_P2\\CyberSecurityChatbot\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "CyberSecurityChatbot\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_P2\\CyberSecurityChatbot\\MainWindow.xaml.cs",
               "RelativeToolTip": "CyberSecurityChatbot\\MainWindow.xaml.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowAMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-14T14:03:15.047Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_P2\\CyberSecurityChatbot\\MainWindow.xaml",
               "RelativeDocumentMoniker": "CyberSecurityChatbot\\MainWindow.xaml",
