@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_P2\\CyberSecurityChatbot\\CyberSecurityChatbot.csproj": {}
+    "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\CyberSecurityChatbot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_P2\\CyberSecurityChatbot\\CyberSecurityChatbot.csproj": {
+    "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\CyberSecurityChatbot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_P2\\CyberSecurityChatbot\\CyberSecurityChatbot.csproj",
+        "projectUniqueName": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\CyberSecurityChatbot.csproj",
         "projectName": "CyberSecurityChatbot",
-        "projectPath": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_P2\\CyberSecurityChatbot\\CyberSecurityChatbot.csproj",
+        "projectPath": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\CyberSecurityChatbot.csproj",
         "packagesPath": "C:\\Users\\USER-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_P2\\CyberSecurityChatbot\\obj\\",
+        "outputPath": "C:\\Users\\USER-PC\\OneDrive\\Documents\\GitHub\\PROG6221_POE_Part3\\CyberSecurityChatbot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,7 +70,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
