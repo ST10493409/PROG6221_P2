@@ -65,6 +65,23 @@ namespace CyberSecurityChatbot
                 await Task.Delay(20);
             }
         }
+        private void btnQuiz_Click(object sender, RoutedEventArgs e)
+        {
+            lstChat.Items.Add("Bot: " +
+                bot.GetResponse("start quiz"));
+        }
+
+        private void btnTasks_Click(object sender, RoutedEventArgs e)
+        {
+            lstChat.Items.Add("Bot: " +
+                bot.GetResponse("show tasks"));
+        }
+
+        private void btnActivity_Click(object sender, RoutedEventArgs e)
+        {
+            lstChat.Items.Add("Bot: " +
+                bot.GetResponse("show activity log"));
+        }
     }
 }
 

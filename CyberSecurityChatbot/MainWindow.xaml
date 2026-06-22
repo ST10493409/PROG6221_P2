@@ -12,6 +12,7 @@
             <RowDefinition Height="140"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="80"/>
+            <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
 
         <!-- ASCII art -->
@@ -51,6 +52,37 @@
             <TextBox x:Name="txtMessage" Grid.Column="1" Margin="10" FontSize="16" VerticalContentAlignment="Center" Text="Type your message" Background="#FFAAEDFF" TextAlignment="Center" FontWeight="Bold"/>
 
             <Button x:Name="btnSend" Grid.Column="2" Margin="10" FontSize="20" Content="Send" Background="#007ACC" Foreground="White" Click="btnSend_Click" FontWeight="Bold"/>
+
+        </Grid>
+
+        <!-- Feature Buttons -->
+        <Grid Grid.Row="3" Margin="10">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="btnQuiz"
+            Content="Start Quiz"
+            Margin="7"
+            FontWeight="Bold"
+            Click="btnQuiz_Click" Background="#FF01A412" FontSize="18"/>
+
+            <Button x:Name="btnTasks"
+            Grid.Column="1"
+            Content="Show Tasks"
+            Margin="7"
+            FontWeight="Bold"
+            Click="btnTasks_Click" Background="#FF01A412" FontSize="18"/>
+
+            <Button x:Name="btnActivity"
+            Grid.Column="2"
+            Content="Activity Log"
+            Margin="7"
+            FontWeight="Bold"
+            Click="btnActivity_Click" Background="#FF01A412" FontSize="18"/>
 
         </Grid>
 
