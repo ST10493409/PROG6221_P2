@@ -63,7 +63,7 @@ namespace CyberSecurityChatbot
             QuizQuestions.Add(new QuizQuestion()
             {
                 Question = "What should you do if an email asks for your password?",
-                Answer = "Report it"
+                Answer = "Report"
             });
 
             QuizQuestions.Add(new QuizQuestion()
@@ -160,6 +160,41 @@ namespace CyberSecurityChatbot
             AddLog("Task Added: " + title);
 
             return "Task added successfully.";
+        }
+
+        public string CompleteTask(string title)
+        {
+            foreach (CyberTask task in Tasks)
+            {
+                if (task.Title == title)
+                {
+                    task.Completed = true;
+
+                    AddLog("Task Completed: " + title);
+
+                    return "Task marked as completed.";
+                }
+            }
+
+            return "Task not found.";
+        }
+
+        //Delete task
+        public string DeleteTask(string title)
+        {
+            for (int i = 0; i < Tasks.Count; i++)
+            {
+                if (Tasks[i].Title == title)
+                {
+                    Tasks.RemoveAt(i);
+
+                    AddLog("Task Deleted: " + title);
+
+                    return "Task deleted.";
+                }
+            }
+
+            return "Task not found.";
         }
 
         // Main response method
@@ -265,6 +300,43 @@ namespace CyberSecurityChatbot
                     foreach (CyberTask task in Tasks)
                     {
                         output += "- " + task.Title + "\n";
+                    }
+
+                    return output;
+                }
+
+                if (message.StartsWith("complete task"))
+                {
+                    string title =
+                        message.Replace("complete task", "").Trim();
+
+                    return CompleteTask(title);
+                }
+
+                if (message.StartsWith("delete task"))
+                {
+                    string title =
+                        message.Replace("delete task", "").Trim();
+
+                    return DeleteTask(title);
+                }
+
+                //Show activity logs
+                if (message == "show activity log")
+                {
+                    if (Logs.Count == 0)
+                    {
+                        return "No activity recorded.";
+                    }
+
+                    string output = "Activity Log:\n";
+
+                    foreach (ActivityLog log in Logs)
+                    {
+                        output += log.TimeStamp.ToShortTimeString()
+                               + " - "
+                               + log.Action
+                               + "\n";
                     }
 
                     return output;
