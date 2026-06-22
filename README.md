@@ -42,3 +42,5 @@ Features
 -Activity Logs
 
 Referencing is in the code at the bottom of MainWindow.xaml.cs
+
+I would also like to apologise for my video presentation having no sound my mic seems to be broken
