@@ -142,6 +142,26 @@ namespace CyberSecurityChatbot
             });
         }
 
+        //Add task feature
+        public string AddTask(string title)
+        {
+            CyberTask task = new CyberTask();
+
+            task.Title = title;
+
+            task.Description = title;
+
+            task.Reminder = "None";
+
+            task.Completed = false;
+
+            Tasks.Add(task);
+
+            AddLog("Task Added: " + title);
+
+            return "Task added successfully.";
+        }
+
         // Main response method
         public string GetResponse(string message)
         {
@@ -154,6 +174,8 @@ namespace CyberSecurityChatbot
                 // Start Quiz
                 if (message == "start quiz")
                 {
+                    AddLog("Quiz Started");
+
                     QuizMode = true;
 
                     CurrentQuestion = 0;
@@ -187,6 +209,8 @@ namespace CyberSecurityChatbot
                     {
                         QuizMode = false;
 
+                        AddLog("Quiz Completed");
+
                         return feedback +
                                "Quiz Complete!\nYour Score: "
                                + Score + "/"
@@ -217,6 +241,33 @@ namespace CyberSecurityChatbot
                     }
 
                     return "Please ask a cybersecurity topic first.";
+                }
+
+                //Task adder
+                if (message.StartsWith("add task"))
+                {
+                    string title =
+                        message.Replace("add task", "").Trim();
+
+                    return AddTask(title);
+                }
+
+                //Shows tasks
+                if (message == "show tasks")
+                {
+                    if (Tasks.Count == 0)
+                    {
+                        return "No tasks available.";
+                    }
+
+                    string output = "Tasks:\n";
+
+                    foreach (CyberTask task in Tasks)
+                    {
+                        output += "- " + task.Title + "\n";
+                    }
+
+                    return output;
                 }
 
                 // Keyword finder
