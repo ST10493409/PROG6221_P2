@@ -1,13 +1,12 @@
 CyberSecurity Awareness Chatbot – Part 3 POE
 Student Information
-Student Name: YOUR NAME
-Student Number: YOUR STUDENT NUMBER
-Module: PROG6221
-Project Description
+Student Number: ST10493409
+Module: PROG6221 
 
+Project Description:
 This project is a CyberSecurity Awareness Chatbot developed in C# using Windows Presentation Foundation (WPF). The chatbot is designed to educate users about cybersecurity topics such as password safety, phishing, privacy, and safe browsing.
 
-Software Requirements
+Software Requirements:
 Visual Studio 2022
 .NET Framework
 MySQL Server 8.0
