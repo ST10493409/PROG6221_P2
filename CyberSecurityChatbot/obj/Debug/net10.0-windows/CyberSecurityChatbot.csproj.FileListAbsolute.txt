@@ -40,3 +40,17 @@ C:\Users\USER-PC\OneDrive\Documents\GitHub\PROG6221_POE_Part3\CyberSecurityChatb
 C:\Users\USER-PC\OneDrive\Documents\GitHub\PROG6221_POE_Part3\CyberSecurityChatbot\obj\Debug\net10.0-windows\CyberSecurityChatbot.pdb
 C:\Users\USER-PC\OneDrive\Documents\GitHub\PROG6221_POE_Part3\CyberSecurityChatbot\obj\Debug\net10.0-windows\CyberSecurityChatbot.genruntimeconfig.cache
 C:\Users\USER-PC\OneDrive\Documents\GitHub\PROG6221_POE_Part3\CyberSecurityChatbot\obj\Debug\net10.0-windows\ref\CyberSecurityChatbot.dll
+C:\Users\USER-PC\OneDrive\Documents\GitHub\PROG6221_POE_Part3\CyberSecurityChatbot\bin\Debug\net10.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\USER-PC\OneDrive\Documents\GitHub\PROG6221_POE_Part3\CyberSecurityChatbot\bin\Debug\net10.0-windows\Google.Protobuf.dll
+C:\Users\USER-PC\OneDrive\Documents\GitHub\PROG6221_POE_Part3\CyberSecurityChatbot\bin\Debug\net10.0-windows\K4os.Compression.LZ4.dll
+C:\Users\USER-PC\OneDrive\Documents\GitHub\PROG6221_POE_Part3\CyberSecurityChatbot\bin\Debug\net10.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\USER-PC\OneDrive\Documents\GitHub\PROG6221_POE_Part3\CyberSecurityChatbot\bin\Debug\net10.0-windows\K4os.Hash.xxHash.dll
+C:\Users\USER-PC\OneDrive\Documents\GitHub\PROG6221_POE_Part3\CyberSecurityChatbot\bin\Debug\net10.0-windows\MySql.Data.dll
+C:\Users\USER-PC\OneDrive\Documents\GitHub\PROG6221_POE_Part3\CyberSecurityChatbot\bin\Debug\net10.0-windows\ZstdSharp.dll
+C:\Users\USER-PC\OneDrive\Documents\GitHub\PROG6221_POE_Part3\CyberSecurityChatbot\bin\Debug\net10.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\USER-PC\OneDrive\Documents\GitHub\PROG6221_POE_Part3\CyberSecurityChatbot\bin\Debug\net10.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\USER-PC\OneDrive\Documents\GitHub\PROG6221_POE_Part3\CyberSecurityChatbot\bin\Debug\net10.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\USER-PC\OneDrive\Documents\GitHub\PROG6221_POE_Part3\CyberSecurityChatbot\bin\Debug\net10.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\USER-PC\OneDrive\Documents\GitHub\PROG6221_POE_Part3\CyberSecurityChatbot\bin\Debug\net10.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\USER-PC\OneDrive\Documents\GitHub\PROG6221_POE_Part3\CyberSecurityChatbot\obj\Debug\net10.0-windows\CyberSecurityChatbot.csproj.AssemblyReference.cache
+C:\Users\USER-PC\OneDrive\Documents\GitHub\PROG6221_POE_Part3\CyberSecurityChatbot\obj\Debug\net10.0-windows\CyberSec.BD5E7929.Up2Date

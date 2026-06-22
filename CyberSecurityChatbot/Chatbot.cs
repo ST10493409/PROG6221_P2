@@ -8,6 +8,8 @@ namespace CyberSecurityChatbot
     {
         Random random = new Random();
 
+        DatabaseHelper db = new DatabaseHelper();
+
         public string UserName = "";
         public string FavouriteTopic = "";
         public string PreviousResponse = "";
@@ -156,6 +158,8 @@ namespace CyberSecurityChatbot
             task.Completed = false;
 
             Tasks.Add(task);
+
+            db.AddTask(task);
 
             AddLog("Task Added: " + title);
 
