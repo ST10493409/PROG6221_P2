@@ -20,6 +20,12 @@ namespace CyberSecurityChatbot
 
         public List<QuizQuestion> QuizQuestions = new List<QuizQuestion>();
 
+        public int CurrentQuestion = 0;
+
+        public int Score = 0;
+
+        public bool QuizMode = false;
+
 
         public Chatbot()
         {
@@ -57,7 +63,7 @@ namespace CyberSecurityChatbot
             QuizQuestions.Add(new QuizQuestion()
             {
                 Question = "What should you do if an email asks for your password?",
-                Answer = "Report"
+                Answer = "Report it"
             });
 
             QuizQuestions.Add(new QuizQuestion()
@@ -126,6 +132,16 @@ namespace CyberSecurityChatbot
             return responses[number];
         }
 
+        // Activity logs
+        public void AddLog(string action)
+        {
+            Logs.Add(new ActivityLog()
+            {
+                Action = action,
+                TimeStamp = DateTime.Now
+            });
+        }
+
         // Main response method
         public string GetResponse(string message)
         {
@@ -134,6 +150,54 @@ namespace CyberSecurityChatbot
                 message = message.ToLower();
 
                 string[] words = message.Split(' ');
+
+                // Start Quiz
+                if (message == "start quiz")
+                {
+                    QuizMode = true;
+
+                    CurrentQuestion = 0;
+
+                    Score = 0;
+
+                    return "Quiz Started!\nQuestion 1:\n" +
+                           QuizQuestions[CurrentQuestion].Question;
+                }
+
+                if (QuizMode)
+                {
+                    string feedback;
+
+                    if (message.ToLower() ==
+                        QuizQuestions[CurrentQuestion].Answer.ToLower())
+                    {
+                        Score++;
+                        feedback = "Correct!\n";
+                    }
+                    else
+                    {
+                        feedback = "Incorrect. The correct answer was: "
+                                   + QuizQuestions[CurrentQuestion].Answer
+                                   + "\n";
+                    }
+
+                    CurrentQuestion++;
+
+                    if (CurrentQuestion >= QuizQuestions.Count)
+                    {
+                        QuizMode = false;
+
+                        return feedback +
+                               "Quiz Complete!\nYour Score: "
+                               + Score + "/"
+                               + QuizQuestions.Count;
+                    }
+
+                    return feedback +
+                           "Question " + (CurrentQuestion + 1) + ":\n" +
+                           QuizQuestions[CurrentQuestion].Question;
+                }
+            
 
                 // Name
                 if (message == "what is my name")
